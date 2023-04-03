@@ -15,7 +15,8 @@ age = 30
 let one: Int = 1
 let two: Int = 2
 
-
+one
+two
 
 
 
@@ -35,3 +36,5 @@ func add(a: Int , b:Int) -> Int{
     return a * b
 }
 add(a: 2, b: 3)
+
+
