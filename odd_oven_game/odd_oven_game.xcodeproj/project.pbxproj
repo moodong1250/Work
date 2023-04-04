@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0896F8DB29DC5F75002DFC71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0896F8DA29DC5F75002DFC71 /* AppDelegate.swift */; };
+		0896F8DD29DC5F75002DFC71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0896F8DC29DC5F75002DFC71 /* SceneDelegate.swift */; };
+		0896F8DF29DC5F75002DFC71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0896F8DE29DC5F75002DFC71 /* ViewController.swift */; };
+		0896F8E229DC5F75002DFC71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0896F8E029DC5F75002DFC71 /* Main.storyboard */; };
+		0896F8E429DC5F77002DFC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0896F8E329DC5F77002DFC71 /* Assets.xcassets */; };
+		0896F8E729DC5F77002DFC71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0896F8E529DC5F77002DFC71 /* LaunchScreen.storyboard */; };
+		0896F8F229DC5F77002DFC71 /* odd_oven_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0896F8F129DC5F77002DFC71 /* odd_oven_gameTests.swift */; };
+		0896F8FC29DC5F77002DFC71 /* odd_oven_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0896F8FB29DC5F77002DFC71 /* odd_oven_gameUITests.swift */; };
+		0896F8FE29DC5F77002DFC71 /* odd_oven_gameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0896F8FD29DC5F77002DFC71 /* odd_oven_gameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0896F8EE29DC5F77002DFC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0896F8CF29DC5F75002DFC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0896F8D629DC5F75002DFC71;
+			remoteInfo = odd_oven_game;
+		};
+		0896F8F829DC5F77002DFC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0896F8CF29DC5F75002DFC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0896F8D629DC5F75002DFC71;
+			remoteInfo = odd_oven_game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0896F8D729DC5F75002DFC71 /* odd_oven_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = odd_oven_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0896F8DA29DC5F75002DFC71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0896F8DC29DC5F75002DFC71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0896F8DE29DC5F75002DFC71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0896F8E129DC5F75002DFC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0896F8E329DC5F77002DFC71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0896F8E629DC5F77002DFC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0896F8E829DC5F77002DFC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0896F8ED29DC5F77002DFC71 /* odd_oven_gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = odd_oven_gameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0896F8F129DC5F77002DFC71 /* odd_oven_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odd_oven_gameTests.swift; sourceTree = "<group>"; };
+		0896F8F729DC5F77002DFC71 /* odd_oven_gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = odd_oven_gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0896F8FB29DC5F77002DFC71 /* odd_oven_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odd_oven_gameUITests.swift; sourceTree = "<group>"; };
+		0896F8FD29DC5F77002DFC71 /* odd_oven_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odd_oven_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0896F8D429DC5F75002DFC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0896F8EA29DC5F77002DFC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0896F8F429DC5F77002DFC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0896F8CE29DC5F75002DFC71 = {
+			isa = PBXGroup;
+			children = (
+				0896F8D929DC5F75002DFC71 /* odd_oven_game */,
+				0896F8F029DC5F77002DFC71 /* odd_oven_gameTests */,
+				0896F8FA29DC5F77002DFC71 /* odd_oven_gameUITests */,
+				0896F8D829DC5F75002DFC71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0896F8D829DC5F75002DFC71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0896F8D729DC5F75002DFC71 /* odd_oven_game.app */,
+				0896F8ED29DC5F77002DFC71 /* odd_oven_gameTests.xctest */,
+				0896F8F729DC5F77002DFC71 /* odd_oven_gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0896F8D929DC5F75002DFC71 /* odd_oven_game */ = {
+			isa = PBXGroup;
+			children = (
+				0896F8DA29DC5F75002DFC71 /* AppDelegate.swift */,
+				0896F8DC29DC5F75002DFC71 /* SceneDelegate.swift */,
+				0896F8DE29DC5F75002DFC71 /* ViewController.swift */,
+				0896F8E029DC5F75002DFC71 /* Main.storyboard */,
+				0896F8E329DC5F77002DFC71 /* Assets.xcassets */,
+				0896F8E529DC5F77002DFC71 /* LaunchScreen.storyboard */,
+				0896F8E829DC5F77002DFC71 /* Info.plist */,
+			);
+			path = odd_oven_game;
+			sourceTree = "<group>";
+		};
+		0896F8F029DC5F77002DFC71 /* odd_oven_gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				0896F8F129DC5F77002DFC71 /* odd_oven_gameTests.swift */,
+			);
+			path = odd_oven_gameTests;
+			sourceTree = "<group>";
+		};
+		0896F8FA29DC5F77002DFC71 /* odd_oven_gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0896F8FB29DC5F77002DFC71 /* odd_oven_gameUITests.swift */,
+				0896F8FD29DC5F77002DFC71 /* odd_oven_gameUITestsLaunchTests.swift */,
+			);
+			path = odd_oven_gameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0896F8D629DC5F75002DFC71 /* odd_oven_game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0896F90129DC5F77002DFC71 /* Build configuration list for PBXNativeTarget "odd_oven_game" */;
+			buildPhases = (
+				0896F8D329DC5F75002DFC71 /* Sources */,
+				0896F8D429DC5F75002DFC71 /* Frameworks */,
+				0896F8D529DC5F75002DFC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = odd_oven_game;
+			productName = odd_oven_game;
+			productReference = 0896F8D729DC5F75002DFC71 /* odd_oven_game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0896F8EC29DC5F77002DFC71 /* odd_oven_gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0896F90429DC5F77002DFC71 /* Build configuration list for PBXNativeTarget "odd_oven_gameTests" */;
+			buildPhases = (
+				0896F8E929DC5F77002DFC71 /* Sources */,
+				0896F8EA29DC5F77002DFC71 /* Frameworks */,
+				0896F8EB29DC5F77002DFC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0896F8EF29DC5F77002DFC71 /* PBXTargetDependency */,
+			);
+			name = odd_oven_gameTests;
+			productName = odd_oven_gameTests;
+			productReference = 0896F8ED29DC5F77002DFC71 /* odd_oven_gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0896F8F629DC5F77002DFC71 /* odd_oven_gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0896F90729DC5F77002DFC71 /* Build configuration list for PBXNativeTarget "odd_oven_gameUITests" */;
+			buildPhases = (
+				0896F8F329DC5F77002DFC71 /* Sources */,
+				0896F8F429DC5F77002DFC71 /* Frameworks */,
+				0896F8F529DC5F77002DFC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0896F8F929DC5F77002DFC71 /* PBXTargetDependency */,
+			);
+			name = odd_oven_gameUITests;
+			productName = odd_oven_gameUITests;
+			productReference = 0896F8F729DC5F77002DFC71 /* odd_oven_gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0896F8CF29DC5F75002DFC71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0896F8D629DC5F75002DFC71 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0896F8EC29DC5F77002DFC71 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0896F8D629DC5F75002DFC71;
+					};
+					0896F8F629DC5F77002DFC71 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0896F8D629DC5F75002DFC71;
+					};
+				};
+			};
+			buildConfigurationList = 0896F8D229DC5F75002DFC71 /* Build configuration list for PBXProject "odd_oven_game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0896F8CE29DC5F75002DFC71;
+			productRefGroup = 0896F8D829DC5F75002DFC71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0896F8D629DC5F75002DFC71 /* odd_oven_game */,
+				0896F8EC29DC5F77002DFC71 /* odd_oven_gameTests */,
+				0896F8F629DC5F77002DFC71 /* odd_oven_gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0896F8D529DC5F75002DFC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0896F8E729DC5F77002DFC71 /* LaunchScreen.storyboard in Resources */,
+				0896F8E429DC5F77002DFC71 /* Assets.xcassets in Resources */,
+				0896F8E229DC5F75002DFC71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0896F8EB29DC5F77002DFC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0896F8F529DC5F77002DFC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0896F8D329DC5F75002DFC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0896F8DF29DC5F75002DFC71 /* ViewController.swift in Sources */,
+				0896F8DB29DC5F75002DFC71 /* AppDelegate.swift in Sources */,
+				0896F8DD29DC5F75002DFC71 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0896F8E929DC5F77002DFC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0896F8F229DC5F77002DFC71 /* odd_oven_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0896F8F329DC5F77002DFC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0896F8FE29DC5F77002DFC71 /* odd_oven_gameUITestsLaunchTests.swift in Sources */,
+				0896F8FC29DC5F77002DFC71 /* odd_oven_gameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0896F8EF29DC5F77002DFC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0896F8D629DC5F75002DFC71 /* odd_oven_game */;
+			targetProxy = 0896F8EE29DC5F77002DFC71 /* PBXContainerItemProxy */;
+		};
+		0896F8F929DC5F77002DFC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0896F8D629DC5F75002DFC71 /* odd_oven_game */;
+			targetProxy = 0896F8F829DC5F77002DFC71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0896F8E029DC5F75002DFC71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0896F8E129DC5F75002DFC71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0896F8E529DC5F77002DFC71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0896F8E629DC5F77002DFC71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0896F8FF29DC5F77002DFC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0896F90029DC5F77002DFC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0896F90229DC5F77002DFC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z67635X56Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = odd_oven_game/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "study.odd-oven-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0896F90329DC5F77002DFC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z67635X56Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = odd_oven_game/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "study.odd-oven-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0896F90529DC5F77002DFC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z67635X56Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "study.odd-oven-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/odd_oven_game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/odd_oven_game";
+			};
+			name = Debug;
+		};
+		0896F90629DC5F77002DFC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z67635X56Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "study.odd-oven-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/odd_oven_game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/odd_oven_game";
+			};
+			name = Release;
+		};
+		0896F90829DC5F77002DFC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z67635X56Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "study.odd-oven-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = odd_oven_game;
+			};
+			name = Debug;
+		};
+		0896F90929DC5F77002DFC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z67635X56Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "study.odd-oven-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = odd_oven_game;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0896F8D229DC5F75002DFC71 /* Build configuration list for PBXProject "odd_oven_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0896F8FF29DC5F77002DFC71 /* Debug */,
+				0896F90029DC5F77002DFC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0896F90129DC5F77002DFC71 /* Build configuration list for PBXNativeTarget "odd_oven_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0896F90229DC5F77002DFC71 /* Debug */,
+				0896F90329DC5F77002DFC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0896F90429DC5F77002DFC71 /* Build configuration list for PBXNativeTarget "odd_oven_gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0896F90529DC5F77002DFC71 /* Debug */,
+				0896F90629DC5F77002DFC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0896F90729DC5F77002DFC71 /* Build configuration list for PBXNativeTarget "odd_oven_gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0896F90829DC5F77002DFC71 /* Debug */,
+				0896F90929DC5F77002DFC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0896F8CF29DC5F75002DFC71 /* Project object */;
+}
